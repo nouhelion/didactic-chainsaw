@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/didactic-chainsaw.iml" filepath="$PROJECT_DIR$/.idea/didactic-chainsaw.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CareLine.iml" filepath="$PROJECT_DIR$/.idea/modules/CareLine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CareLine.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CareLine.app.iml" />
     </modules>
   </component>
 </project>
