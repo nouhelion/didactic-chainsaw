@@ -5,4 +5,6 @@
     <string name="firstPP">Découvrez les Meilleurs Médecins</string>
     <string name="firstP2p">Une équipe de médecins professionnels de nombreux hôpitaux vous aide à vivre la meilleure expérience de soins de santé où que vous soyez.</string>
     <string name="suivant">Suivant</string>
+         <!--  descriptions for images -->
+    <string name="img1">image one</string>
 </resources>
