@@ -11,11 +11,12 @@
         android:id="@+id/textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/raleway_bold"
+        android:fontFamily="sans-serif"
         android:text="@string/ignore"
         android:textAlignment="viewEnd"
         android:textColor="#757575"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="329dp"
-        tools:layout_editor_absoluteY="32dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
