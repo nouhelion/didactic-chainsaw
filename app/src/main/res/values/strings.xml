@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CareLine</string>
+    <string name="app_name">Care Line</string>
     <!-- strings for onboarding screen -->
     <string name="ignore">Ignorer</string>
 </resources>
