@@ -24,15 +24,15 @@
         android:id="@+id/ignorer"
         android:layout_width="56dp"
         android:layout_height="24dp"
-        android:layout_marginEnd="14dp"
         android:layout_marginTop="4dp"
+        android:layout_marginEnd="14dp"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="5sp"
         android:text="@string/ignorer"
         android:textAppearance="@style/ignorer"
-        android:lineSpacingExtra="5sp"
-        android:gravity="center_horizontal|top"
+        android:textColor="#616161"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-    </TextView>
+        app:layout_constraintTop_toTopOf="parent"></TextView>
 
     <ImageView
         android:id="@+id/img"
@@ -71,9 +71,44 @@
         android:textAppearance="@style/une_quipe_d"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/d_couvrez_l">
-    </TextView>
+        app:layout_constraintTop_toBottomOf="@+id/d_couvrez_l"></TextView>
 
+    <Button
+        android:id="@+id/active_dot"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/active_dot"
+        android:gravity="center_horizontal|top"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/une_quipe_d"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"></Button>
 
+    <Button
+        android:id="@+id/inactive_dot_1"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/inactive_dot"
+        android:gravity="center_horizontal|top"
+        app:layout_constraintStart_toEndOf="@+id/active_dot"
+        app:layout_constraintTop_toBottomOf="@+id/une_quipe_d"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
+    </Button>
+
+    <Button
+        android:id="@+id/inactive_dot_2"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/inactive_dot"
+        android:gravity="center_horizontal|top"
+        app:layout_constraintStart_toEndOf="@+id/inactive_dot_1"
+        app:layout_constraintTop_toBottomOf="@+id/une_quipe_d"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
+    </Button>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
