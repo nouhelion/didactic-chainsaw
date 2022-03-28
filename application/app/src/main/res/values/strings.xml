@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">CareLine</string>
+    <!-- strings for first get started 1-->
     <string name="care_line">CARE LINE</string>
+    <string name="ignorer">Ignorer</string>
+    <string name="d_couvrez_l">Découvrez les Meilleurs Médecins</string>
+    <string name="dsc">Doctors illustrations</string>
+    <string name="une_quipe_d">Une équipe de médecins professionnels de nombreux hôpitaux vous aide à vivre la meilleure expérience de soins de santé où que vous soyez.</string>
 </resources>

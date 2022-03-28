@@ -16,9 +16,64 @@
         android:lineSpacingExtra="8sp"
         android:text="@string/care_line"
         android:textAppearance="@style/care_line"
-        android:textColor="#2196F3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
     </TextView>
+
+    <TextView
+        android:id="@+id/ignorer"
+        android:layout_width="56dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/ignorer"
+        android:textAppearance="@style/ignorer"
+        android:lineSpacingExtra="5sp"
+        android:gravity="center_horizontal|top"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="216dp"
+        android:layout_height="223dp"
+        android:src="@drawable/second_pic"
+        android:layout_marginBottom="160dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:contentDescription="@string/dsc">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/d_couvrez_l"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="12sp"
+        android:text="@string/d_couvrez_l"
+        android:layout_marginTop="20dp"
+        android:textAppearance="@style/d_couvrez_l"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img">
+    </TextView>
+
+    <TextView
+        android:id="@+id/une_quipe_d"
+        android:layout_width="327dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/une_quipe_d"
+        android:textAppearance="@style/une_quipe_d"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/d_couvrez_l">
+    </TextView>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
