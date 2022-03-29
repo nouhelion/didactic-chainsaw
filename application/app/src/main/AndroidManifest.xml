@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CareLine">
         <activity
+            android:name=".Start_3"
+            android:exported="false" />
+        <activity
             android:name=".Start_2"
             android:exported="false" />
         <activity

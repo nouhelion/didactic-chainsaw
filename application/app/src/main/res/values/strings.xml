@@ -10,5 +10,8 @@
     <!-- strings for first get started 2-->
     <string name="r_servez_pl">Réservez / Planifiez vos rendez-vous</string>
     <string name="vous_souhai">Vous souhaitez prendre rendez-vous ? \nPlus besoin de vous déplacer, réservez et gérez vos rendez-vous depuis chez vous.</string>
+    <!-- strings for first get started 3-->
+    <string name="g_rez_votre">Gérez votre santé</string>
+    <string name="g_rez">Gérez votre santé en ligne. Obtenez de l\'aide \nsur la façon d\'amé9liorer votre santé en ligne .</string>
 
 </resources>
