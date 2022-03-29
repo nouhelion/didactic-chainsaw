@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Start_2">
+
+    <TextView
+        android:id="@+id/care_line"
+        android:layout_width="104dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/care_line"
+        android:textAppearance="@style/care_line"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </TextView>
+
+    <TextView
+        android:id="@+id/ignorer"
+        android:layout_width="56dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="14dp"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="5sp"
+        android:text="@string/ignorer"
+        android:textAppearance="@style/ignorer"
+        android:textColor="#616161"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="216dp"
+        android:layout_height="223dp"
+        android:src="@drawable/first_pic"
+        android:layout_marginBottom="160dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:contentDescription="@string/dsc">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/r_servez_pl"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="12sp"
+        android:text="@string/r_servez_pl"
+        android:layout_marginTop="20dp"
+        android:textAppearance="@style/r_servez_pl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img">
+    </TextView>
+
+    <TextView
+        android:id="@+id/vous_souhai"
+        android:layout_width="327dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/vous_souhai"
+        android:textAppearance="@style/vous_souhai"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/r_servez_pl"></TextView>
+
+    <Button
+        android:id="@+id/inactive_dot_1"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/inactive_dot"
+        android:gravity="center_horizontal|top"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vous_souhai"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
+    </Button>
+
+    <Button
+        android:id="@+id/active_dot"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/active_dot"
+        android:gravity="center_horizontal|top"
+        app:layout_constraintStart_toEndOf="@+id/inactive_dot_1"
+        app:layout_constraintTop_toBottomOf="@+id/vous_souhai"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
+    </Button>
+
+    <Button
+        android:id="@+id/inactive_dot_2"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/inactive_dot"
+        android:gravity="center_horizontal|top"
+        app:layout_constraintStart_toEndOf="@+id/active_dot"
+        app:layout_constraintTop_toBottomOf="@+id/vous_souhai"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
+    </Button>
+
+    <Button
+        android:id="@+id/btn_suivant"
+        android:text="@string/next"
+        android:textColor="@color/white"
+        android:layout_width="120dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginStart="25dp"
+        android:background="@drawable/btn"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/active_dot" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

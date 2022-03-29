@@ -7,4 +7,8 @@
     <string name="dsc">Doctors illustrations</string>
     <string name="une_quipe_d">Une équipe de médecins professionnels de nombreux hôpitaux vous aide à vivre la meilleure expérience de soins de santé où que vous soyez.</string>
     <string name="next">Suivant</string>
+    <!-- strings for first get started 2-->
+    <string name="r_servez_pl">Réservez / Planifiez vos rendez-vous</string>
+    <string name="vous_souhai">Vous souhaitez prendre rendez-vous ? \nPlus besoin de vous déplacer, réservez et gérez vos rendez-vous depuis chez vous.</string>
+
 </resources>
