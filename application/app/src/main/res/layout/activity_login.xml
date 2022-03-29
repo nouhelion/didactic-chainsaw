@@ -10,13 +10,13 @@
         android:id="@+id/img"
         android:layout_width="180dp"
         android:layout_height="250dp"
-        android:src="@drawable/login"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="30dp"
-        android:contentDescription="@string/dsc" >
-    </ImageView>
+        android:contentDescription="@string/dsc"
+        android:src="@drawable/login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ImageContrastCheck"></ImageView>
 
     <TextView
         android:id="@+id/care_line"
@@ -36,14 +36,32 @@
 
     <EditText
         android:id="@+id/input_1"
-        android:background="@drawable/input"
-        android:layout_width="246dp"
-        android:layout_height="38dp"
-        android:inputType="text"
+        android:layout_width="266dp"
+        android:layout_height="48dp"
         android:layout_marginTop="50dp"
-        app:layout_constraintTop_toBottomOf="@id/care_line"
+        android:background="@drawable/input"
+        android:hint="@string/mail"
+        android:inputType="text"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintTop_toBottomOf="@id/care_line"
+        android:autofillHints="">
+    </EditText>
+
+    <EditText
+        android:id="@+id/input_2"
+        android:layout_width="266dp"
+        android:layout_height="48dp"
+        android:background="@drawable/input"
+        android:hint="@string/mdp"
+        android:inputType="text"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/input_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"
+        android:autofillHints="">
     </EditText>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,17 +1,20 @@
 <resources>
     <string name="app_name">CareLine</string>
-    <!-- strings for first get started 1-->
+    <!-- strings for get started 1-->
     <string name="care_line">CARE LINE</string>
     <string name="ignorer">Ignorer</string>
     <string name="d_couvrez_l">Découvrez les Meilleurs Médecins</string>
     <string name="dsc">illustration</string>
     <string name="une_quipe_d">Une équipe de médecins professionnels de nombreux hôpitaux vous aide à vivre la meilleure expérience de soins de santé où que vous soyez.</string>
     <string name="next">Suivant</string>
-    <!-- strings for first get started 2-->
+    <!-- strings for  get started 2-->
     <string name="r_servez_pl">Réservez / Planifiez vos rendez-vous</string>
     <string name="vous_souhai">Vous souhaitez prendre rendez-vous ? \nPlus besoin de vous déplacer, réservez et gérez vos rendez-vous depuis chez vous.</string>
-    <!-- strings for first get started 3-->
+    <!-- strings for  get started 3-->
     <string name="g_rez_votre">Gérez votre santé</string>
     <string name="g_rez">Gérez votre santé en ligne. Obtenez de l\'aide \nsur la façon d\'amé9liorer votre santé en ligne .</string>
     <string name="start">Commencez</string>
+    <!-- strings for login-->
+    <string name="mail">E-mail...</string>
+    <string name="mdp">Mot De Passe...</string>
 </resources>
