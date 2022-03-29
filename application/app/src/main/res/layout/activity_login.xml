@@ -6,4 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".Login">
 
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="159dp"
+        android:layout_height="212dp"
+        android:src="@drawable/login"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/dsc" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
