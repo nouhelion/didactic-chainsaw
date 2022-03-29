@@ -112,7 +112,7 @@
     </Button>
 
     <Button
-        android:id="@+id/btn_suivant"
+        android:id="@+id/btn_start"
         android:text="@string/start"
         android:textColor="@color/white"
         android:layout_width="120dp"
