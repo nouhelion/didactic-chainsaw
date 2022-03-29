@@ -10,12 +10,14 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     Button suivant;
+    Button dot1,dot2,dot3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
        suivant=(Button) findViewById(R.id.btn_suivant);
+
        suivant.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View view) {

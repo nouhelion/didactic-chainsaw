@@ -13,5 +13,5 @@
     <!-- strings for first get started 3-->
     <string name="g_rez_votre">Gérez votre santé</string>
     <string name="g_rez">Gérez votre santé en ligne. Obtenez de l\'aide \nsur la façon d\'amé9liorer votre santé en ligne .</string>
-
+    <string name="start">Commencez</string>
 </resources>
