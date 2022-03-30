@@ -39,29 +39,29 @@
         android:layout_width="266dp"
         android:layout_height="48dp"
         android:layout_marginTop="50dp"
+        android:autofillHints=""
         android:background="@drawable/input"
         android:hint="@string/mail"
         android:inputType="text"
-        android:gravity="center"
+        android:textColorHint="#0277BD"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/care_line"
-        android:autofillHints="">
-    </EditText>
+        tools:ignore="TextContrastCheck"></EditText>
 
     <EditText
         android:id="@+id/input_2"
         android:layout_width="266dp"
         android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:autofillHints=""
         android:background="@drawable/input"
         android:hint="@string/mdp"
         android:inputType="text"
-        android:gravity="center"
-        app:layout_constraintTop_toBottomOf="@+id/input_1"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textColorHint="#0277BD"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="30dp"
-        android:autofillHints="">
-    </EditText>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_1"
+        tools:ignore="TextContrastCheck"></EditText>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
