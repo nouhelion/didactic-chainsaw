@@ -17,4 +17,6 @@
     <!-- strings for login-->
     <string name="mail">E-mail...</string>
     <string name="mdp">Mot De Passe...</string>
+    <string name="connect">Se Connecter</string>
+    <string name="nouveau_mem">Nouveau Membre ?</string>
 </resources>

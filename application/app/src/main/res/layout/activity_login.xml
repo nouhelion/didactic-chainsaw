@@ -41,13 +41,17 @@
         android:layout_marginTop="50dp"
         android:autofillHints=""
         android:background="@drawable/input"
+
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_email"
         android:hint="@string/mail"
         android:inputType="text"
         android:textColorHint="#0277BD"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/care_line"
-        tools:ignore="TextContrastCheck"></EditText>
+        tools:ignore="TextContrastCheck">
+    </EditText>
 
     <EditText
         android:id="@+id/input_2"
@@ -58,10 +62,42 @@
         android:background="@drawable/input"
         android:hint="@string/mdp"
         android:inputType="text"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_key"
         android:textColorHint="#0277BD"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/input_1"
-        tools:ignore="TextContrastCheck"></EditText>
+        tools:ignore="TextContrastCheck">
+    </EditText>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="160dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn"
+        android:gravity="center"
+        android:text="@string/connect"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_2"
+        tools:ignore="TextContrastCheck,TouchTargetSizeCheck"></Button>
+
+    <TextView
+        android:id="@+id/nouveau_mem"
+        android:layout_width="161dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/nouveau_mem"
+        android:textAppearance="@style/nouveau_mem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login"
+        tools:ignore="TextContrastCheck"></TextView>
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
