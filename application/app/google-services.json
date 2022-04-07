@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1049775903022",
+    "project_id": "care4line",
+    "storage_bucket": "care4line.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049775903022:android:6beac85039b4a6b6e92abf",
+        "android_client_info": {
+          "package_name": "com.careline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049775903022-2r44emsols1r7gjsl60ohhpdr2kf7d6b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByAYS9oAESYYSfgzRNoT_ATFeVzih8rcY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049775903022-2r44emsols1r7gjsl60ohhpdr2kf7d6b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
