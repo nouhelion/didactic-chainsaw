@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CareLine">
         <activity
+            android:name=".Welcome"
+            android:exported="false" />
+        <activity
             android:name=".Register"
             android:exported="false" />
         <activity

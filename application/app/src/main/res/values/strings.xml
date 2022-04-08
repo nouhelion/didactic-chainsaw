@@ -28,4 +28,6 @@
     <string name="read">J\'ai lu et j\'accepte les termes et conditions</string>
     <string name="acc">Vous avez déja un compte ?</string>
     <string name="sins">S\'inscrire</string>
+    <!-- strings for welcome-->
+    <string name="wel">Welcome</string>
 </resources>

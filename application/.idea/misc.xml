@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/drawable/bar.xml" value="0.2285" />
         <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/drawable/btn.xml" value="0.242" />
         <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/drawable/dot.xml" value="0.242" />
         <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.2285" />
@@ -15,6 +16,7 @@
         <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/layout/activity_register.xml" value="0.2359375" />
         <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/layout/activity_start2.xml" value="0.2359375" />
         <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/layout/activity_start3.xml" value="0.2359375" />
+        <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/layout/activity_welcome.xml" value="0.2359375" />
       </map>
     </option>
   </component>
