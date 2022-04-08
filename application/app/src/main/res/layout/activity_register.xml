@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <TextView
+        android:id="@+id/care_line"
+        android:layout_width="104dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/care_line"
+        android:textAppearance="@style/care_line"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <EditText
+        android:id="@+id/input_1"
+        android:layout_width="266dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="50dp"
+        android:autofillHints=""
+        android:background="@drawable/input"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_email"
+        android:hint="@string/naus"
+        android:inputType="text"
+        android:textColorHint="#BABABA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/care_line"
+        tools:ignore="TextContrastCheck">
+    </EditText>
+
+
+
+    <EditText
+        android:id="@+id/input_2"
+        android:layout_width="266dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:autofillHints=""
+        android:background="@drawable/input"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_email"
+        android:hint="@string/mail"
+        android:inputType="text"
+        android:textColorHint="#BABABA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/input_1"
+        tools:ignore="TextContrastCheck">
+    </EditText>
+
+    <EditText
+        android:id="@+id/input_3"
+        android:layout_width="266dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:autofillHints=""
+        android:background="@drawable/input"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_email"
+        android:hint="@string/tel"
+        android:inputType="text"
+        android:textColorHint="#BABABA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/input_2"
+        tools:ignore="TextContrastCheck">
+    </EditText>
+
+    <EditText
+        android:id="@+id/input_4"
+        android:layout_width="266dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:autofillHints=""
+        android:background="@drawable/input"
+        android:hint="@string/mdp"
+        android:inputType="text"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_email"
+        android:textColorHint="#BABABA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_3"
+        tools:ignore="TextContrastCheck">
+    </EditText>
+
+    <EditText
+        android:id="@+id/input_5"
+        android:layout_width="266dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:autofillHints=""
+        android:background="@drawable/input"
+        android:hint="@string/tapp"
+        android:inputType="text"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_email"
+        android:textColorHint="#BABABA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_4"
+        tools:ignore="TextContrastCheck">
+    </EditText>
+
+    <TextView
+        android:id="@+id/agree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/read"
+        app:layout_constraintBaseline_toBaselineOf="@+id/check"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintStart_toEndOf="@id/check"></TextView>
+
+    <CheckBox
+        android:id="@+id/check"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_5"
+        tools:ignore="TouchTargetSizeCheck"></CheckBox>
+
+    <Button
+        android:id="@+id/insc"
+        android:layout_width="160dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn"
+        android:gravity="center"
+        android:text="@string/sins"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/check"
+        tools:ignore="TextContrastCheck,TouchTargetSizeCheck"></Button>
+
+    <TextView
+        android:id="@+id/acc"
+        android:layout_width="200dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/acc"
+        android:textAppearance="@style/acc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/insc"
+        tools:ignore="TextContrastCheck"></TextView>
+
+    <TextView
+        android:id="@+id/log"
+        android:layout_width="140dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="12dp"
+        android:text="@string/log"
+        android:textAppearance="@style/insc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+       app:layout_constraintBaseline_toBaselineOf="@+id/acc"
+        tools:ignore="TextContrastCheck"></TextView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

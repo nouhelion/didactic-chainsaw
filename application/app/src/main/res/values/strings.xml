@@ -19,4 +19,13 @@
     <string name="mdp">Mot De Passe...</string>
     <string name="connect">Se Connecter</string>
     <string name="nouveau_mem">Nouveau Membre ?</string>
+    <string name="insc">Inscrivez-vous</string>
+    <!-- strings for register-->
+    <string name="naus">Nom d\'Utilisateur...</string>
+    <string name="tel">Nº Tel...</string>
+    <string name="tapp">Retapper le Mot De Passe</string>
+    <string name="log">Connectez-vous</string>
+    <string name="read">J\'ai lu et j\'accepte les termes et conditions</string>
+    <string name="acc">Vous avez déja un compte ?</string>
+    <string name="sins">S\'inscrire</string>
 </resources>

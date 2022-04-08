@@ -15,6 +15,7 @@
         android:gravity="center_vertical"
         android:lineSpacingExtra="8sp"
         android:text="@string/care_line"
+        android:textStyle="bold"
         android:textAppearance="@style/care_line"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -114,17 +115,18 @@
 
     <Button
         android:id="@+id/btn_suivant"
-        android:text="@string/next"
-        android:textColor="@color/white"
         android:layout_width="120dp"
         android:layout_height="38dp"
-        android:layout_marginTop="65dp"
         android:layout_marginStart="10dp"
+        android:layout_marginTop="65dp"
         android:background="@drawable/btn"
         android:gravity="center"
+        android:text="@string/next"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dot_1" />
+        app:layout_constraintTop_toBottomOf="@+id/dot_1"
+        tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
