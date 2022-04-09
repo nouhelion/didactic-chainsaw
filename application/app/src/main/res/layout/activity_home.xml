@@ -7,8 +7,54 @@
     android:background="@color/white"
     tools:context=".Home">
 
-    <Button
+    <TextView
+        android:id="@+id/home"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"></Button>
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/accueil"
+        android:textAppearance="@style/accueil"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck">
+    </TextView>
+
+    <TextView
+        android:id="@+id/hey"
+        android:text="@string/hey"
+        android:textAppearance="@style/hey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home">
+    </TextView>
+
+    <TextView
+        android:id="@+id/comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/comment"
+        android:textAppearance="@style/comment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hey"></TextView>
+
+    <TextView
+        android:id="@+id/service"
+        android:text="@string/service"
+        android:textAppearance="@style/service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/comment"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp">
+    </TextView>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

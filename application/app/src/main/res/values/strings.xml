@@ -30,4 +30,10 @@
     <string name="sins">S\'inscrire</string>
     <!-- strings for welcome-->
     <string name="wel">Welcome</string>
+    <!-- strings for home-->
+    <string name="accueil">Accueil</string>
+    <string name="hey">Hey,</string>
+    <string name="comment">Comment vous sentez-vous aujourd\'hui ?</string>
+    <string name="service">Nos Services</string>
+
 </resources>
