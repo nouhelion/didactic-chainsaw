@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-
+    <item
+        android:id="@+id/home"
+        android:title="Person"
+        android:icon="@drawable/home_foreground"/>
+    <item
+        android:id="@+id/calendar"
+        android:title="Home"
+        android:icon="@drawable/calendar_foreground"/>
+    <item
+        android:id="@+id/notification"
+        android:title="Settings"
+        android:icon="@drawable/notification_foreground"/>
+    <item
+        android:id="@+id/person"
+        android:title="Settings"
+        android:icon="@drawable/person_foreground"/>
 </menu>
