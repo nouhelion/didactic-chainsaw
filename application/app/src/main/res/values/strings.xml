@@ -35,5 +35,7 @@
     <string name="hey">Hey,</string>
     <string name="comment">Comment vous sentez-vous aujourd\'hui ?</string>
     <string name="service">Nos Services</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

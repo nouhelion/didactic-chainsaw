@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_bar"
+    app:startDestination="@id/acceuil">
+    <fragment
+        android:id="@+id/acceuil"
+        android:name="com.careline.acceuil"
+        android:label="fragment_acceuil"
+        tools:layout="@layout/fragment_acceuil" />
+    <fragment
+        android:id="@+id/calendar"
+        android:name="com.careline.calendar"
+        android:label="fragment_calendar"
+        tools:layout="@layout/fragment_calendar" />
+    <fragment
+        android:id="@+id/notification"
+        android:name="com.careline.notification"
+        android:label="fragment_notification"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/person"
+        android:name="com.careline.person"
+        android:label="fragment_person"
+        tools:layout="@layout/fragment_person" />
+</navigation>
