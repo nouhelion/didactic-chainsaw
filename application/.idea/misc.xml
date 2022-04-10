@@ -5,13 +5,21 @@
       <map>
         <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/drawable/bar.xml" value="0.2285" />
         <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/drawable/btn.xml" value="0.242" />
+        <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/drawable/calendar_background.xml" value="0.2275" />
+        <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/drawable/calendar_foreground.xml" value="0.2275" />
         <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/drawable/dot.xml" value="0.242" />
+        <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/drawable/home_background.xml" value="0.2275" />
+        <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/drawable/home_foreground.xml" value="0.2275" />
         <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.2285" />
         <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/drawable/ic_email.xml" value="0.2285" />
         <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/drawable/ic_key.xml" value="0.2285" />
         <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/drawable/inactive_dot.xml" value="0.242" />
         <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/drawable/input.xml" value="0.2355" />
         <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/drawable/navbar.xml" value="0.2275" />
+        <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/drawable/notification_background.xml" value="0.2275" />
+        <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/drawable/notification_foreground.xml" value="0.2275" />
+        <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/drawable/person_background.xml" value="0.2275" />
+        <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/drawable/person_foreground.xml" value="0.2275" />
         <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/layout/activity_home.xml" value="0.2359375" />
         <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/layout/activity_main.xml" value="0.23229166666666667" />
@@ -20,6 +28,7 @@
         <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/layout/activity_start3.xml" value="0.2359375" />
         <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/layout/activity_welcome.xml" value="0.2359375" />
         <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2359375" />
+        <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/mipmap-anydpi-v26/calendar.xml" value="0.1" />
       </map>
     </option>
   </component>
