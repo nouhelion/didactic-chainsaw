@@ -9,14 +9,15 @@
 
     <TextView
         android:id="@+id/acceuil"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="20dp"
         android:text="@string/accueil"
         android:textAppearance="@style/accueil"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="20dp"
-        android:layout_width="100dp"
-        android:layout_height="32dp"/>
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/hey"
@@ -38,4 +39,17 @@
         app:layout_constraintTop_toBottomOf="@+id/hey"
         android:layout_width="340dp"
         android:layout_height="40dp"/>
+
+    <TextView
+        android:id="@+id/service"
+        android:text="@string/service"
+        android:textAppearance="@style/service"
+        app:layout_constraintTop_toBottomOf="@+id/comment"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="10dp"
+        android:layout_width="130dp"
+        android:layout_height="40dp"/>
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
