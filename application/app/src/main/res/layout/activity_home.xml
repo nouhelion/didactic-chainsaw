@@ -3,7 +3,39 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@color/white"
     android:layout_height="match_parent"
     tools:context=".Home">
 
+    <TextView
+        android:id="@+id/acceuil"
+        android:text="@string/accueil"
+        android:textAppearance="@style/accueil"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        android:layout_height="32dp"/>
+
+    <TextView
+        android:id="@+id/hey"
+        android:text="@string/hey"
+        android:textAppearance="@style/hey"
+        app:layout_constraintTop_toBottomOf="@+id/acceuil"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:id="@+id/comment"
+        android:text="@string/comment"
+        android:textAppearance="@style/comment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hey"
+        android:layout_width="340dp"
+        android:layout_height="40dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
