@@ -43,6 +43,10 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_width="320dp"
         android:layout_height="84dp">
+        <TextView
+            android:id="@+id/d1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/doc2"
@@ -53,6 +57,10 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_width="320dp"
         android:layout_height="84dp">
+        <TextView
+            android:id="@+id/d2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/doc3"
@@ -63,6 +71,10 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_width="320dp"
         android:layout_height="84dp">
+        <TextView
+            android:id="@+id/d3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/doc4"
@@ -73,6 +85,10 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_width="320dp"
         android:layout_height="84dp">
+        <TextView
+            android:id="@+id/d4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
