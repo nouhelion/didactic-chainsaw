@@ -23,10 +23,10 @@ public class rendez_vous extends AppCompatActivity {
         notification=(ImageView) findViewById(R.id.not);
         home=(ImageView) findViewById(R.id.hom);
         profil=(ImageView) findViewById(R.id.per);
-        doc1=(TextView) findViewById(R.id.doc1);
-        doc2=(TextView) findViewById(R.id.doc2);
-        doc3=(TextView) findViewById(R.id.doc3);
-        doc4=(TextView) findViewById(R.id.doc4);
+        doc1=(TextView) findViewById(R.id.d1);
+        doc2=(TextView) findViewById(R.id.d2);
+        doc3=(TextView) findViewById(R.id.d3);
+        doc4=(TextView) findViewById(R.id.d4);
         doc1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
