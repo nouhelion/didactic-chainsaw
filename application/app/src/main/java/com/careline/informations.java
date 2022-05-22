@@ -16,6 +16,8 @@ public class informations extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_informations);
+        calendar=(ImageView) findViewById(R.id.cal);
+        notification=(ImageView) findViewById(R.id.not);
        leave=(ImageView) findViewById(R.id.shape);
         leave.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,6 +34,7 @@ public class informations extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
         notification.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
