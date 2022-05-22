@@ -97,23 +97,7 @@
         tools:ignore="TextContrastCheck">
     </EditText>
 
-    <EditText
-        android:id="@+id/input_5"
-        android:layout_width="266dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="30dp"
-        android:autofillHints=""
-        android:background="@drawable/input"
-        android:hint="@string/tapp"
-        android:inputType="text"
-        android:drawablePadding="10dp"
-        android:drawableStart="@drawable/ic_email"
-        android:textColorHint="#BABABA"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input_4"
-        tools:ignore="TextContrastCheck">
-    </EditText>
+
 
     <TextView
         android:id="@+id/agree"
@@ -134,7 +118,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.146"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input_5"
+        app:layout_constraintTop_toBottomOf="@+id/input_4"
         tools:ignore="TouchTargetSizeCheck"></CheckBox>
 
     <Button
