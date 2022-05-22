@@ -23,11 +23,110 @@
         android:id="@+id/doc"
         app:layout_constraintTop_toBottomOf="@+id/reserv"
         app:layout_constraintStart_toStartOf="parent"
-
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
         android:textAppearance="@style/dr_"
         android:text="@string/dr_"
         android:layout_width="50dp"
-        android:layout_height="50dp"/>
+        android:layout_height="30dp"/>
+
+    <ImageView
+        android:id="@+id/lloc"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="14dp"
+        android:contentDescription="@string/partager"
+        android:src="@drawable/loc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/doc"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/loc"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/location"
+        android:textAppearance="@style/location"
+        android:textColor="#2196F3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/doc" />
+
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="214dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="12dp"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loc" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        app:layout_constraintTop_toBottomOf="@+id/datePicker"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"
+        android:layout_width="214dp"
+        android:layout_height="142dp"
+        android:timePickerMode="spinner"/>
+
+    <TextView
+        android:id="@+id/plainte"
+        app:layout_constraintTop_toBottomOf="@+id/timePicker"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:textAppearance="@style/votre_plain"
+        android:text="@string/votre_plain"
+        android:layout_width="100dp"
+        android:layout_height="20dp"/>
+
+    <EditText
+        android:id="@+id/plai"
+        android:layout_width="271dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/plainte"
+        android:gravity="start"
+        android:hint="@string/tapez_votre"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plainte"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="160dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn"
+        android:gravity="center"
+        android:text="@string/rv"
+        android:textColor="@color/white"
+        android:layout_marginStart="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plai"
+        tools:ignore="TextContrastCheck,TouchTargetSizeCheck"/>
+
+    <ImageView
+        android:id="@+id/shape"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="5dp"
+        android:contentDescription="@string/partager"
+        android:src="@drawable/x"
+        app:layout_constraintBottom_toTopOf="@+id/nav"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="ImageContrastCheck" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/nav"

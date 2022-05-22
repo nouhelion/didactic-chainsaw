@@ -47,5 +47,8 @@
     <string name="user">Sousou</string>
     <string name="reserv">Réservation</string>
     <string name="dr_">Dr.</string>
-
+    <string name="location">Location</string>
+    <string name="votre_plain">Votre plainte</string>
+    <string name="tapez_votre">Tapez votre plainte ici...</string>
+    <string name="rv">Réserver</string>
 </resources>
