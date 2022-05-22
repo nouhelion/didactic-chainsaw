@@ -4,6 +4,82 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".reservation">
 
+    <TextView
+        android:id="@+id/reserv"
+        android:layout_width="150dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/reserv"
+        android:textAppearance="@style/reserv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/doc"
+        app:layout_constraintTop_toBottomOf="@+id/reserv"
+        app:layout_constraintStart_toStartOf="parent"
+
+        android:textAppearance="@style/dr_"
+        android:text="@string/dr_"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/nav"
+        android:background="@drawable/nav"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/hom"
+            android:layout_width="25dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:contentDescription="@string/partager"
+            android:src="@drawable/home_"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageView
+            android:id="@+id/cal"
+            android:layout_width="25dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="100dp"
+            android:src="@drawable/calender"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@id/hom"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ImageContrastCheck"
+            android:contentDescription="@string/partager" />
+
+        <ImageView
+            android:id="@+id/not"
+            android:layout_width="25dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="100dp"
+            android:src="@drawable/notification_"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@id/cal"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ImageContrastCheck"
+            android:contentDescription="@string/partager" />
+        <ImageView
+            android:id="@+id/per"
+            app:layout_constraintStart_toStartOf="@id/not"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="100dp"
+            android:src="@drawable/shape_"
+            android:layout_width="25dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/partager" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

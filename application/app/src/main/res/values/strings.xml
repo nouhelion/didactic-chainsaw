@@ -45,4 +45,7 @@
     <string name="se_d_connec">Se Déconnecter</string>
     <string name="sara">Sara El Aboudi</string>
     <string name="user">Sousou</string>
+    <string name="reserv">Réservation</string>
+    <string name="dr_">Dr.</string>
+
 </resources>

@@ -86,6 +86,11 @@
         <item name="android:textColor">#6798E1</item>
     </style>
 
+    <style name="reserv">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#6798E1</item>
+    </style>
+
     <style name="rechercher_">
         <item name="android:textSize">
             16sp</item>
@@ -125,6 +130,11 @@
     <style name="sara">
         <item name="android:textSize">20sp</item>
         <item name="android:textColor">#114B5F</item>
+    </style>
+
+    <style name="dr_">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#424242</item>
     </style>
 
 </resources>
