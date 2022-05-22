@@ -11,12 +11,21 @@ public class profil extends AppCompatActivity {
     ImageView calendar;
     ImageView notification;
     ImageView home;
+    ImageView disconnect;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profil);
         calendar=(ImageView) findViewById(R.id.cal);
         notification=(ImageView) findViewById(R.id.not);
+        disconnect=(ImageView) findViewById(R.id.di);
+        disconnect.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(profil.this,Login.class);
+                startActivity(intent);
+            }
+        });
         home=(ImageView) findViewById(R.id.hom);
         home.setOnClickListener(new View.OnClickListener() {
             @Override
