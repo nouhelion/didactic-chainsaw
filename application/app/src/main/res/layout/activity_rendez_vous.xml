@@ -9,15 +9,18 @@
 
     <EditText
         android:id="@+id/search"
-        android:background="@drawable/search"
-        app:layout_constraintTop_toBottomOf="@+id/rendvous"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:hint="@string/rechercher_"
-        android:layout_marginTop="40dp"
-        android:gravity="center"
         android:layout_width="320dp"
-        android:layout_height="25dp"/>
+        android:layout_height="28dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/search"
+        android:gravity="center"
+        android:hint="@string/rechercher_"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rendvous"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
     
     <TextView
         android:id="@+id/rendvous"
@@ -86,25 +89,32 @@
             android:layout_marginStart="30dp"
             android:src="@drawable/home_"
             android:layout_width="25dp"
-            android:layout_height="40dp"/>
+            android:layout_height="40dp"
+            android:contentDescription="ct" />
+
         <ImageView
             android:id="@+id/cal"
-            app:layout_constraintStart_toStartOf="@id/hom"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="25dp"
+            android:layout_height="40dp"
             android:layout_marginStart="100dp"
             android:src="@drawable/calender"
-            android:layout_width="25dp"
-            android:layout_height="40dp"/>
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@id/hom"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ImageContrastCheck"
+            android:contentDescription="td" />
+
         <ImageView
             android:id="@+id/not"
-            app:layout_constraintStart_toStartOf="@id/cal"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="25dp"
+            android:layout_height="40dp"
             android:layout_marginStart="100dp"
             android:src="@drawable/notification_"
-            android:layout_width="25dp"
-            android:layout_height="40dp"/>
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@id/cal"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ImageContrastCheck"
+            android:contentDescription="rd" />
         <ImageView
             android:id="@+id/per"
             app:layout_constraintStart_toStartOf="@id/not"
@@ -113,6 +123,7 @@
             android:layout_marginStart="100dp"
             android:src="@drawable/shape_"
             android:layout_width="25dp"
-            android:layout_height="40dp"/>
+            android:layout_height="40dp"
+            android:contentDescription="td" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
