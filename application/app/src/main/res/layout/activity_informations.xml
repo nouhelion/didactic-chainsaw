@@ -26,6 +26,7 @@
         app:layout_constraintTop_toBottomOf="@+id/profil"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="70dp"
+        android:contentDescription="@string/partager"
         android:layout_width="63dp"
         android:layout_height="54dp"/>
 
@@ -53,13 +54,15 @@
 
     <ImageView
         android:id="@+id/shape"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/nav"
-        android:layout_marginBottom="20dp"
-        android:layout_marginEnd="20dp"
-        android:src="@drawable/x"
         android:layout_width="50dp"
-        android:layout_height="50dp"/>
+        android:layout_height="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/partager"
+        android:src="@drawable/x"
+        app:layout_constraintBottom_toTopOf="@+id/nav"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="ImageContrastCheck" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/nav"
@@ -74,9 +77,9 @@
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginStart="30dp"
             android:src="@drawable/home_"
+            android:contentDescription="@string/partager"
             android:layout_width="25dp"
-            android:layout_height="40dp"
-            android:contentDescription="TODO" />
+            android:layout_height="40dp" />
         <ImageView
             android:id="@+id/cal"
             app:layout_constraintStart_toStartOf="@id/hom"
@@ -85,20 +88,20 @@
             android:layout_marginStart="100dp"
             android:src="@drawable/calender_"
             android:layout_width="25dp"
-            android:layout_height="40dp"
-            android:contentDescription="TODO" />
+            android:contentDescription="@string/partager"
+            android:layout_height="40dp" />
 
         <ImageView
             android:id="@+id/not"
             android:layout_width="25dp"
             android:layout_height="40dp"
             android:layout_marginStart="100dp"
+            android:contentDescription="@string/partager"
             android:src="@drawable/notification_"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="@id/cal"
             app:layout_constraintTop_toTopOf="parent"
-            tools:ignore="ImageContrastCheck"
-            android:contentDescription="TODO" />
+            tools:ignore="ImageContrastCheck" />
 
         <ImageView
             android:id="@+id/per"
@@ -110,6 +113,6 @@
             app:layout_constraintStart_toStartOf="@id/not"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="ImageContrastCheck"
-            android:contentDescription="TODO" />
+            android:contentDescription="@string/partager" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

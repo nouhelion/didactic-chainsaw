@@ -26,6 +26,7 @@
         app:layout_constraintTop_toBottomOf="@+id/profil"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="70dp"
+        android:contentDescription="@string/partager"
         android:layout_width="63dp"
         android:layout_height="54dp"/>
 
@@ -79,6 +80,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/partager"
             app:layout_constraintBottom_toBottomOf="parent"
             android:layout_height="20dp"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -103,15 +105,18 @@
         android:layout_marginTop="60dp"
         android:background="@drawable/circle"
         android:layout_height="40dp">
+
         <ImageView
             android:id="@+id/par"
-            android:src="@drawable/share"
             android:layout_width="30dp"
+            android:layout_height="15dp"
+            android:contentDescription="@string/partager"
+            android:src="@drawable/share"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_height="15dp"/>
+            tools:ignore="ImageContrastCheck" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
@@ -134,15 +139,18 @@
         android:layout_marginTop="60dp"
         android:background="@drawable/circle"
         android:layout_height="40dp">
+
         <ImageView
             android:id="@+id/di"
-            android:src="@drawable/logout"
             android:layout_width="35dp"
+            android:layout_height="15dp"
+            android:contentDescription="@string/partager"
+            android:src="@drawable/logout"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_height="15dp"/>
+            tools:ignore="ImageContrastCheck" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -151,38 +159,42 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_width="match_parent"
         android:layout_height="50dp">
+
         <ImageView
             android:id="@+id/hom"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginStart="30dp"
-            android:src="@drawable/home_"
             android:layout_width="25dp"
             android:layout_height="40dp"
-            android:contentDescription="TODO" />
+            android:layout_marginStart="30dp"
+            android:contentDescription="@string/partager"
+            android:src="@drawable/home_"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ImageContrastCheck" />
+
         <ImageView
             android:id="@+id/cal"
-            app:layout_constraintStart_toStartOf="@id/hom"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginStart="100dp"
-            android:src="@drawable/calender_"
             android:layout_width="25dp"
             android:layout_height="40dp"
-            android:contentDescription="TODO" />
+            android:layout_marginStart="100dp"
+            android:contentDescription="@string/partager"
+            android:src="@drawable/calender_"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@id/hom"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ImageContrastCheck" />
 
         <ImageView
             android:id="@+id/not"
             android:layout_width="25dp"
             android:layout_height="40dp"
+            android:contentDescription="@string/partager"
             android:layout_marginStart="100dp"
             android:src="@drawable/notification_"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="@id/cal"
             app:layout_constraintTop_toTopOf="parent"
-            tools:ignore="ImageContrastCheck"
-            android:contentDescription="TODO" />
+            tools:ignore="ImageContrastCheck"/>
 
         <ImageView
             android:id="@+id/per"
@@ -194,6 +206,6 @@
             app:layout_constraintStart_toStartOf="@id/not"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="ImageContrastCheck"
-            android:contentDescription="TODO" />
+            android:contentDescription="@string/partager" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

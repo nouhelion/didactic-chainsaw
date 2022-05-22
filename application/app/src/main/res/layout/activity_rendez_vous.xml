@@ -81,16 +81,18 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_width="match_parent"
         android:layout_height="50dp">
+
         <ImageView
             android:id="@+id/hom"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginStart="30dp"
-            android:src="@drawable/home_"
             android:layout_width="25dp"
             android:layout_height="40dp"
-            android:contentDescription="ct" />
+            android:layout_marginStart="30dp"
+            android:contentDescription="@string/partager"
+            android:src="@drawable/home_"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ImageContrastCheck" />
 
         <ImageView
             android:id="@+id/cal"
@@ -102,7 +104,7 @@
             app:layout_constraintStart_toStartOf="@id/hom"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="ImageContrastCheck"
-            android:contentDescription="td" />
+            android:contentDescription="@string/partager" />
 
         <ImageView
             android:id="@+id/not"
@@ -114,7 +116,7 @@
             app:layout_constraintStart_toStartOf="@id/cal"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="ImageContrastCheck"
-            android:contentDescription="rd" />
+            android:contentDescription="@string/partager" />
         <ImageView
             android:id="@+id/per"
             app:layout_constraintStart_toStartOf="@id/not"
@@ -124,6 +126,6 @@
             android:src="@drawable/shape_"
             android:layout_width="25dp"
             android:layout_height="40dp"
-            android:contentDescription="td" />
+            android:contentDescription="@string/partager" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

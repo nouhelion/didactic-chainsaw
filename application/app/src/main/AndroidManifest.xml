@@ -9,6 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CareLine">
         <activity
+            android:name=".reservation"
+            android:exported="false" />
+        <activity
             android:name=".informations"
             android:exported="false" />
         <activity

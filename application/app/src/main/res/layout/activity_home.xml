@@ -67,15 +67,18 @@
         android:layout_marginStart="35dp"
         android:layout_width="60dp"
         android:layout_height="60dp">
+
         <ImageView
             android:id="@+id/psyim"
-            android:src="@drawable/psychology"
             android:layout_width="34dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            android:layout_height="44dp"
+            android:contentDescription="@string/partager"
+            android:src="@drawable/psychology"
             app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_height="44dp"/>
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ImageContrastCheck" />
     </androidx.constraintlayout.widget.ConstraintLayout>
       <androidx.constraintlayout.widget.ConstraintLayout
           android:id="@+id/gyn"
@@ -86,15 +89,18 @@
           android:layout_marginStart="175dp"
           android:layout_width="60dp"
           android:layout_height="60dp">
+
           <ImageView
               android:id="@+id/gynim"
-              android:src="@drawable/periods"
               android:layout_width="54dp"
-              app:layout_constraintStart_toStartOf="parent"
-              app:layout_constraintEnd_toEndOf="parent"
-              app:layout_constraintTop_toTopOf="parent"
+              android:layout_height="44dp"
+              android:src="@drawable/periods"
+              android:contentDescription="@string/partager"
               app:layout_constraintBottom_toBottomOf="parent"
-              android:layout_height="44dp"/>
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent"
+              tools:ignore="ImageContrastCheck" />
       </androidx.constraintlayout.widget.ConstraintLayout>
       <androidx.constraintlayout.widget.ConstraintLayout
           android:id="@+id/derm"
@@ -105,15 +111,18 @@
           android:layout_marginStart="35dp"
           android:layout_width="60dp"
           android:layout_height="60dp">
+
           <ImageView
               android:id="@+id/dermim"
-              android:src="@drawable/dermatology"
               android:layout_width="74dp"
-              app:layout_constraintStart_toStartOf="parent"
-              app:layout_constraintEnd_toEndOf="parent"
-              app:layout_constraintTop_toTopOf="parent"
+              android:layout_height="44dp"
+              android:contentDescription="@string/partager"
+              android:src="@drawable/dermatology"
               app:layout_constraintBottom_toBottomOf="parent"
-              android:layout_height="44dp"/>
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent"
+              tools:ignore="ImageContrastCheck" />
       </androidx.constraintlayout.widget.ConstraintLayout>
       <androidx.constraintlayout.widget.ConstraintLayout
           android:id="@+id/dent"
@@ -125,15 +134,18 @@
           android:layout_marginTop="30dp"
           android:layout_width="60dp"
           android:layout_height="60dp">
+
           <ImageView
               android:id="@+id/dentim"
               android:layout_width="74dp"
               android:layout_height="44dp"
+              android:contentDescription="@string/partager"
               android:src="@drawable/tooth"
               app:layout_constraintBottom_toBottomOf="parent"
               app:layout_constraintEnd_toEndOf="parent"
               app:layout_constraintStart_toStartOf="parent"
-              app:layout_constraintTop_toTopOf="parent" />
+              app:layout_constraintTop_toTopOf="parent"
+              tools:ignore="ImageContrastCheck" />
       </androidx.constraintlayout.widget.ConstraintLayout>
       <androidx.constraintlayout.widget.ConstraintLayout
           android:id="@+id/neur"
@@ -144,15 +156,18 @@
           android:layout_marginStart="175dp"
           android:layout_width="60dp"
           android:layout_height="60dp">
+
           <ImageView
               android:id="@+id/neurim"
-              android:src="@drawable/brain"
               android:layout_width="54dp"
-              app:layout_constraintStart_toStartOf="parent"
-              app:layout_constraintEnd_toEndOf="parent"
-              app:layout_constraintTop_toTopOf="parent"
+              android:layout_height="44dp"
+              android:src="@drawable/brain"
+              android:contentDescription="@string/partager"
               app:layout_constraintBottom_toBottomOf="parent"
-              android:layout_height="44dp"/>
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent"
+              tools:ignore="ImageContrastCheck" />
       </androidx.constraintlayout.widget.ConstraintLayout>
       <androidx.constraintlayout.widget.ConstraintLayout
           android:id="@+id/card"
@@ -163,15 +178,18 @@
           android:layout_marginStart="35dp"
           android:layout_width="60dp"
           android:layout_height="60dp">
+
           <ImageView
               android:id="@+id/cardim"
-              android:src="@drawable/heartbeat"
               android:layout_width="44dp"
-              app:layout_constraintStart_toStartOf="parent"
-              app:layout_constraintEnd_toEndOf="parent"
-              app:layout_constraintTop_toTopOf="parent"
+              android:layout_height="44dp"
+              android:contentDescription="@string/partager"
+              android:src="@drawable/heartbeat"
               app:layout_constraintBottom_toBottomOf="parent"
-              android:layout_height="44dp"/>
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent"
+              tools:ignore="ImageContrastCheck" />
       </androidx.constraintlayout.widget.ConstraintLayout>
       <androidx.constraintlayout.widget.ConstraintLayout
           android:id="@+id/pedi"
@@ -182,15 +200,18 @@
           android:layout_marginStart="175dp"
           android:layout_width="60dp"
           android:layout_height="60dp">
+
           <ImageView
               android:id="@+id/pediim"
-              android:src="@drawable/baby"
               android:layout_width="54dp"
-              app:layout_constraintStart_toStartOf="parent"
-              app:layout_constraintEnd_toEndOf="parent"
-              app:layout_constraintTop_toTopOf="parent"
+              android:layout_height="44dp"
+              android:src="@drawable/baby"
               app:layout_constraintBottom_toBottomOf="parent"
-              android:layout_height="44dp"/>
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent"
+              android:contentDescription="@string/partager"
+              tools:ignore="ImageContrastCheck" />
       </androidx.constraintlayout.widget.ConstraintLayout>
   </androidx.constraintlayout.widget.ConstraintLayout>
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -199,33 +220,42 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_width="match_parent"
         android:layout_height="50dp">
-       <ImageView
-           android:id="@+id/hom"
-           app:layout_constraintStart_toStartOf="parent"
-           app:layout_constraintBottom_toBottomOf="parent"
-           app:layout_constraintTop_toTopOf="parent"
-           android:layout_marginStart="30dp"
-           android:src="@drawable/home"
-           android:layout_width="25dp"
-           android:layout_height="40dp"/>
+
+        <ImageView
+            android:id="@+id/hom"
+            android:layout_width="25dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="30dp"
+            android:contentDescription="@string/partager"
+            android:src="@drawable/home"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ImageContrastCheck" />
+
         <ImageView
             android:id="@+id/cal"
-            app:layout_constraintStart_toStartOf="@id/hom"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="25dp"
+            android:layout_height="40dp"
             android:layout_marginStart="100dp"
             android:src="@drawable/calender_"
-            android:layout_width="25dp"
-            android:layout_height="40dp"/>
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@id/hom"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ImageContrastCheck"
+            android:contentDescription="@string/partager" />
+
         <ImageView
             android:id="@+id/not"
-            app:layout_constraintStart_toStartOf="@id/cal"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="25dp"
+            android:layout_height="40dp"
             android:layout_marginStart="100dp"
             android:src="@drawable/notification_"
-            android:layout_width="25dp"
-            android:layout_height="40dp"/>
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@id/cal"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ImageContrastCheck"
+            android:contentDescription="@string/partager" />
         <ImageView
             android:id="@+id/per"
             app:layout_constraintStart_toStartOf="@id/not"
@@ -234,7 +264,8 @@
             android:layout_marginStart="100dp"
             android:src="@drawable/shape_"
             android:layout_width="25dp"
-            android:layout_height="40dp"/>
+            android:layout_height="40dp"
+            android:contentDescription="@string/partager"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
