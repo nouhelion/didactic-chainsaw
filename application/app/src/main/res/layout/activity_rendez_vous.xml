@@ -9,11 +9,14 @@
 
     <EditText
         android:id="@+id/search"
+        android:background="@drawable/search"
         app:layout_constraintTop_toBottomOf="@+id/rendvous"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="20dp"
-        android:layout_width="292dp"
+        android:hint="@string/rechercher_"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:layout_width="320dp"
         android:layout_height="25dp"/>
     
     <TextView
@@ -27,6 +30,47 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TextContrastCheck" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/doc1"
+        app:layout_constraintTop_toBottomOf="@+id/search"
+        android:background="@drawable/services"
+        android:layout_marginTop="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="320dp"
+        android:layout_height="84dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/doc2"
+        app:layout_constraintTop_toBottomOf="@+id/doc1"
+        android:background="@drawable/services"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="320dp"
+        android:layout_height="84dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/doc3"
+        app:layout_constraintTop_toBottomOf="@+id/doc2"
+        android:background="@drawable/services"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="320dp"
+        android:layout_height="84dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/doc4"
+        app:layout_constraintTop_toBottomOf="@+id/doc3"
+        android:background="@drawable/services"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="320dp"
+        android:layout_height="84dp">
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/nav"

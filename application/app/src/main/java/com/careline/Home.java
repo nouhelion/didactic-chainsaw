@@ -17,6 +17,7 @@ public class Home extends AppCompatActivity {
     ImageView cardim;
     ImageView dentim;
     ImageView pediim;
+    ImageView notification;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +30,14 @@ public class Home extends AppCompatActivity {
         cardim=(ImageView) findViewById(R.id.cardim);
         dentim=(ImageView) findViewById(R.id.dentim);
         pediim=(ImageView) findViewById(R.id.pediim);
+        notification=(ImageView) findViewById(R.id.not);
+        notification.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(Home.this,notification.class);
+                startActivity(intent);
+            }
+        });
         psyim.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

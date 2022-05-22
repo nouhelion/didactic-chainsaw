@@ -9,6 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CareLine">
         <activity
+            android:name=".notification"
+            android:exported="false" />
+        <activity
             android:name=".rendez_vous"
             android:exported="false" />
         <activity
