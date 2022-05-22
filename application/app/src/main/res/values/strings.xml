@@ -37,4 +37,6 @@
     <string name="service">Nos Services</string>
     <string name="rechercher_">Rechercher des médecins</string>
     <string name="rendez_vous">Rendez-vous</string>
+    <string name="notificatio">Notifications</string>
+
 </resources>

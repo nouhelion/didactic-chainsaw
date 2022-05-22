@@ -18,6 +18,8 @@ public class Home extends AppCompatActivity {
     ImageView dentim;
     ImageView pediim;
     ImageView notification;
+    ImageView calendar;
+    ImageView profil;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +33,22 @@ public class Home extends AppCompatActivity {
         dentim=(ImageView) findViewById(R.id.dentim);
         pediim=(ImageView) findViewById(R.id.pediim);
         notification=(ImageView) findViewById(R.id.not);
+        calendar=(ImageView) findViewById(R.id.cal);
+        profil=(ImageView) findViewById(R.id.per);
+        profil.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(Home.this,profil.class);
+                startActivity(intent);
+            }
+        });
+        calendar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(Home.this,rendez_vous.class);
+                startActivity(intent);
+            }
+        });
         notification.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

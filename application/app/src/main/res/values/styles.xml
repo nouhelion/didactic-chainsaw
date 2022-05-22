@@ -92,4 +92,9 @@
         <item name="android:textColor">#BABABA</item>
     </style>
 
+    <style name="notificatio">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#6798E1</item>
+    </style>
+
 </resources>
