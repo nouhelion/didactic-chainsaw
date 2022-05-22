@@ -40,4 +40,7 @@
     <string name="notificatio">Notifications</string>
     <string name="profile">Profile</string>
     <string name="welcome_sar">Welcome Sara</string>
+    <string name="information">Informations</string>
+    <string name="partager">Partager</string>
+    <string name="se_d_connec">Se Déconnecter</string>
 </resources>
