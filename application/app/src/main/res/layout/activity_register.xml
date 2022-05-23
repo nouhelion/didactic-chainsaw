@@ -87,7 +87,7 @@
         android:autofillHints=""
         android:background="@drawable/input"
         android:hint="@string/mdp"
-        android:inputType="text"
+        android:inputType="textPassword"
         android:drawablePadding="10dp"
         android:drawableStart="@drawable/ic_email"
         android:textColorHint="#BABABA"
