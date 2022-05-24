@@ -57,7 +57,7 @@
 
     <DatePicker
         android:id="@+id/datePicker"
-        android:layout_width="214dp"
+        android:layout_width="224dp"
         android:layout_height="142dp"
         android:layout_marginTop="12dp"
         android:calendarViewShown="false"
@@ -72,7 +72,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="12dp"
-        android:layout_width="214dp"
+        android:layout_width="224dp"
         android:layout_height="142dp"
         android:timePickerMode="spinner"/>
 
