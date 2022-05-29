@@ -65,15 +65,18 @@
         <entry key="..\:/git_Pro/didactic-chainsaw/application/app/src/main/res/mipmap-anydpi-v26/calendar.xml" value="0.1" />
         <entry key="..\:/git_Pro/donedone/didactic-chainsaw/application/app/src/main/res/drawable/input.xml" value="0.242" />
         <entry key="..\:/git_Pro/donedone/didactic-chainsaw/application/app/src/main/res/drawable/plainte.xml" value="0.242" />
+        <entry key="..\:/git_Pro/donedone/didactic-chainsaw/application/app/src/main/res/drawable/services.xml" value="0.242" />
         <entry key="..\:/git_Pro/donedone/didactic-chainsaw/application/app/src/main/res/layout/activity_home.xml" value="0.2359375" />
         <entry key="..\:/git_Pro/donedone/didactic-chainsaw/application/app/src/main/res/layout/activity_informations.xml" value="0.2359375" />
         <entry key="..\:/git_Pro/donedone/didactic-chainsaw/application/app/src/main/res/layout/activity_login.xml" value="0.2359375" />
+        <entry key="..\:/git_Pro/donedone/didactic-chainsaw/application/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
         <entry key="..\:/git_Pro/donedone/didactic-chainsaw/application/app/src/main/res/layout/activity_notification.xml" value="0.2359375" />
         <entry key="..\:/git_Pro/donedone/didactic-chainsaw/application/app/src/main/res/layout/activity_profil.xml" value="0.2359375" />
         <entry key="..\:/git_Pro/donedone/didactic-chainsaw/application/app/src/main/res/layout/activity_register.xml" value="0.2359375" />
         <entry key="..\:/git_Pro/donedone/didactic-chainsaw/application/app/src/main/res/layout/activity_rendez_vous.xml" value="0.2359375" />
         <entry key="..\:/git_Pro/donedone/didactic-chainsaw/application/app/src/main/res/layout/activity_reservation.xml" value="0.2359375" />
         <entry key="..\:/git_Pro/donedone/didactic-chainsaw/application/app/src/main/res/layout/activity_welcome.xml" value="0.2359375" />
+        <entry key="..\:/git_Pro/donedone/didactic-chainsaw/application/app/src/main/res/layout/item.xml" value="0.2359375" />
       </map>
     </option>
   </component>

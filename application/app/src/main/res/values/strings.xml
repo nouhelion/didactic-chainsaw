@@ -51,4 +51,11 @@
     <string name="votre_plain">Votre plainte</string>
     <string name="tapez_votre">Tapez votre plainte ici...</string>
     <string name="rv">Réserver</string>
+    <string name="fullname">Nom Complet : </string>
+    <string name="location_doc">Location : </string>
+    <string name="looc">140, rue El Farouki Errahali, Sidi Maarouf IV</string>
+    <string name="spec">Spécialité : </string>
+    <string name="sp_doc">Dermatologie</string>
+    <string name="stat">Statut : </string>
+    <string name="st_doc">Online</string>
 </resources>
