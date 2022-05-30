@@ -28,7 +28,7 @@ public class rendez_vous extends AppCompatActivity {
     ImageView notification;
     ImageView home;
     ImageView profil;
-
+    ImageView calendar;
 
     RecyclerView recyclerView;
     DatabaseReference database;
@@ -42,6 +42,7 @@ public class rendez_vous extends AppCompatActivity {
         setContentView(R.layout.activity_rendez_vous);
         notification=(ImageView) findViewById(R.id.not);
         home=(ImageView) findViewById(R.id.hom);
+        calendar=(ImageView) findViewById(R.id.cal);
         profil=(ImageView) findViewById(R.id.per);
 
 
@@ -70,6 +71,13 @@ public class rendez_vous extends AppCompatActivity {
 
 
         recyclerView = findViewById(R.id.doctorList);
+        calendar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(rendez_vous.this,reservation.class);
+                startActivity(intent);
+            }
+        });
         database = FirebaseDatabase.getInstance().getReference("Doctors");
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
