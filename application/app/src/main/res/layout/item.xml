@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
+    android:layout_width="360dp"
     android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cardElevation="8dp"
-    app:cardCornerRadius="8dp"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="25dp"
     android:layout_margin="16dp">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="360dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
+        android:layout_gravity="center_horizontal"
         android:background="@drawable/services"
         android:orientation="vertical">
 
@@ -20,13 +21,7 @@
             android:layout_gravity="center_vertical"
             android:orientation="horizontal">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/fullname"
-                android:textColor="@color/black"
-                android:textSize="26sp"
-                android:textStyle="bold"/>
+
 
             <TextView
                 android:id="@+id/idfullname"
@@ -45,13 +40,7 @@
             android:layout_gravity="center_vertical"
             android:orientation="horizontal">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/location_doc"
-                android:textColor="@color/black"
-                android:textSize="26sp"
-                android:textStyle="bold"/>
+
 
             <TextView
                 android:id="@+id/idlocation"
@@ -70,13 +59,7 @@
             android:layout_gravity="center_vertical"
             android:orientation="horizontal">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/spec"
-                android:textColor="@color/black"
-                android:textSize="26sp"
-                android:textStyle="bold"/>
+
 
             <TextView
                 android:id="@+id/idspeciality"
@@ -94,13 +77,7 @@
             android:layout_gravity="center_vertical"
             android:orientation="horizontal">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/stat"
-                android:textColor="@color/black"
-                android:textSize="26sp"
-                android:textStyle="bold"/>
+
 
             <TextView
                 android:id="@+id/idstatus"
@@ -112,8 +89,6 @@
                 android:textSize="20sp" />
 
         </LinearLayout>
-
-
 
     </LinearLayout>
 
