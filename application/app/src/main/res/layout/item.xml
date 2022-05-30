@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="360dp"
-    android:layout_height="160dp"
+    android:layout_height="140dp"
     android:layout_gravity="center_horizontal"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardElevation="10dp"
@@ -19,17 +19,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="2dp"
             android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/idfullname"
-               android:layout_marginTop="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
                 android:text="Arya"
-                android:textAppearance="@style/comment" />
+                android:textAppearance="@style/comment"
+                android:textColor="#795548" />
 
         </LinearLayout>
 
@@ -37,9 +38,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="2dp"
             android:orientation="horizontal">
-
 
 
             <TextView
@@ -48,14 +48,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="25dp"
                 android:text="Stark"
-                android:textAppearance="@style/comment"/>
+                android:textAppearance="@style/comment"
+                android:textColor="#795548" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="2dp"
             android:layout_gravity="center_vertical"
             android:orientation="horizontal">
 
@@ -65,13 +66,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="25dp"
                 android:text="18"
-                android:textAppearance="@style/comment" />
+                android:textAppearance="@style/comment"
+                android:textColor="#795548" />
 
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="2dp"
             android:layout_gravity="center_vertical"
             android:orientation="horizontal">
 
@@ -81,7 +83,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="25dp"
                 android:text="18"
-                android:textAppearance="@style/comment" />
+                android:textAppearance="@style/comment"
+                android:textColor="#795548" />
 
         </LinearLayout>
 
