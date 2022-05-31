@@ -1,6 +1,7 @@
 package com.careline;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -38,7 +39,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         holder.location.setText(doctor.getLocation());
         holder.speciality.setText(doctor.getSpeciality());
         holder.status.setText(doctor.getStatus());
-
 
     }
 
